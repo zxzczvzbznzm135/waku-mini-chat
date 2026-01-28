@@ -1,0 +1,35 @@
+{
+  "name": "waku-mini-chat",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "tsx src/demo/cli.ts",
+    "demo:listen": "tsx src/demo/cli.ts listen",
+    "demo:send": "tsx src/demo/cli.ts send",
+    "demo:revoke": "tsx src/demo/cli.ts revoke",
+    "demo:delete": "tsx src/demo/cli.ts delete",
+    "test": "vitest run",
+    "start:local-node": "bash scripts/start-local-node.sh",
+    "dev:web": "vite --config vite.web.config.ts",
+    "build:web": "vite build --config vite.web.config.ts",
+    "preview:web": "vite preview --config vite.web.config.ts"
+  },
+  "dependencies": {
+    "@waku/sdk": "^0.0.36",
+    "commander": "^12.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.4.2",
+    "vitest": "^1.5.0"
+  }
+}
