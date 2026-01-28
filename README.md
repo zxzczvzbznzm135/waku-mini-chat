@@ -10,6 +10,11 @@
 - **Web UI（推荐）** + CLI Demo
 - 单元测试（内存传输模拟）
 
+## 安装Node.js
+```bash
+https://nodejs.cn/download/
+```
+
 ## 安装依赖
 ```bash
 npm install
