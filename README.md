@@ -20,6 +20,11 @@ https://nodejs.cn/download/
 npm install
 ```
 
+## 单元测试
+```bash
+npm test
+```
+
 ---
 
 ## 🌐 Web UI（推荐）
@@ -131,11 +136,6 @@ npm run demo delete -- --message-id <messageId>
 ```
 
 ---
-
-## 单元测试
-```bash
-npm test
-```
 
 ## 设计说明
 详见 `docs/design.md`。
