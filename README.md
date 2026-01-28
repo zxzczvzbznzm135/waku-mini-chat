@@ -138,12 +138,6 @@ npm test
 ## 复盘清单
 详见 `docs/retro.md`。
 
-## 演示视频
-请自行录制以下流程：
-- 2 人单聊互发
-- 3 人群聊广播
-- 撤回与本地删除
-
 ## 参考资料
 - Waku 框架与概念：[https://waku.gg](https://waku.gg)
 - LightPush/Filter 发送与接收：[https://docs.waku.org/build/javascript/light-send-receive/](https://docs.waku.org/build/javascript/light-send-receive/)
