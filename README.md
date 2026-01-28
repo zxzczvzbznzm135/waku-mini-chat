@@ -36,6 +36,7 @@ npm run dev:web
 ```
 
 打开浏览器访问 **http://localhost:5173**
+如果遇到waku network连接时间过长的情况,请自行科学一下~
 
 ### Web UI 使用流程
 
